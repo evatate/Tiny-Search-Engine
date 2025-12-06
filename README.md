@@ -1,6 +1,6 @@
 # Tiny Search Engine (TSE)
 
-A full-featured search engine implemented from scratch in **C**, including a **web crawler**, **indexer**, and **query processor**. Designed as a miniature Google, this project involves efficient data structures, algorithmic design, and systems-level programming for high-performance information retrieval.
+A full-featured search engine implemented from scratch in C, including a **web crawler**, **indexer**, and **query processor**. Designed as a miniature Google, this project involves efficient data structures, algorithmic design, and systems-level programming for high-performance information retrieval.
 
 ---
 
@@ -9,10 +9,10 @@ A full-featured search engine implemented from scratch in **C**, including a **w
 The Tiny Search Engine implements a complete search pipeline:
 
 1. **Web Crawler** – Traverses seed URLs to fetch web pages, extract and clean text content.
-2. **Indexer** – Constructs an **inverted index** mapping terms to documents with frequency and positional data.
+2. **Indexer** – Constructs an inverted index mapping terms to documents with frequency and positional data.
 3. **Query Processor** – Accepts user queries, searches the index efficiently, and returns ranked results based on relevance.
 
-The project emphasizes **modularity, memory efficiency, and scalability**, with careful management of low-level details in C.
+The project emphasizes modularity, memory efficiency, and scalability, with careful management of low-level details in C.
 
 ---
 
